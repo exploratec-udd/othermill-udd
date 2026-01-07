@@ -102,6 +102,18 @@ Teniendo lista la configuración de el/los archivos se puede continuar con la pe
 
 ---
 
+
+## Configuración de DRC/Perfil de PCB en Eagle o KiCad
+
+Para garantizar compatibilidad con el proceso de fresado en la **Othermill (Bantam Tools)**, se recomienda utilizar los siguientes parámetros en la configuración de diseño (DRC) y perfilado de PCB:
+
+- **Parámetros importantes:**  
+  - **Drill:** 35.43307 `[INCH]`
+  - **Shape:** `square` o `round` según necesidad  
+
+> Estos valores aseguran que los diámetros y perforaciones generadas por el software sean reconocidos correctamente al exportar el archivo `.brd` o `.grb` para mecanizado en Bantam Tools.
+
+---
 ##### El siguente paso
 ###### Si ya lograste producir tus circuitos PCB con la Othermill te invitamos a dar el siguiente paso investigando más sobre la manufactura de circuitos, hay muchos tipos y técnicas, como también tienes la posibilidad de delegar la manufactura en un tercero como JLC-PCB y PCB-Way.
 
